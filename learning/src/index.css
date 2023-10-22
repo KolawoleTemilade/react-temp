@@ -29,6 +29,7 @@
 .errorpage button:hover{
     cursor: pointer;
     background-color: whitesmoke;
+    border: none;
 }
 .errorpagebtn1{
     display: flex;
