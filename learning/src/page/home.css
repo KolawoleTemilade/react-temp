@@ -1,0 +1,169 @@
+.errorbtn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 80px; */
+    justify-content: space-between;
+    padding: 5px 20px 20px 20px; 
+    margin-bottom: 70px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+.errorbtn1 button{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.694);
+    cursor: pointer;
+    border: none;
+    text-decoration-line: underline;
+}
+.errorbtn1 h1{
+    font-size: 50px;
+   cursor: pointer;
+   color: rgba(11, 45, 11, 0.799); 
+   padding-left: 100px;
+}
+.errorbtn1 p{
+    font-size: 24px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.erorbtn{
+    text-decoration: none;
+}
+.homepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 90px;
+}
+.count{
+    height: 9vh;
+    width: 13%;
+    background-color: rgba(183, 129, 129, 0.998);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: aliceblue;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 5%;
+    padding: 3px 10px;
+    margin-top: 80px;
+
+}
+.btn{
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(to left, rgba(58, 13, 13, 0.662), 
+     #1d6204a2);
+     border: none;
+     padding: 10px 25px;
+     border-radius: 5px;
+}
+.btn:hover{
+    /* transition: all 0.7s linear; */
+    background: linear-gradient(to right, rgba(58, 13, 13, 0.662), 
+     #1d6204a2);
+}
+.btn2{
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(to left, rgba(16, 7, 7, 0.662), 
+     #bb2e04e4);
+     border: none;
+     padding: 10px 25px;
+     border-radius: 5px;
+}
+.btn2:hover{
+    /* transition: all 0.7s linear; */
+    background: linear-gradient(to right, rgba(16, 7, 7, 0.662), 
+     #bb2e04e4);
+}
+.btn3{
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(to left, rgba(16, 7, 7, 0.662), 
+     #0d66cbe4);
+     border: none;
+     padding: 10px 25px;
+     border-radius: 5px;
+    }
+    .btn3:hover{
+    /* transition: all 0.7s linear; */
+    background: linear-gradient(to right, rgba(16, 7, 7, 0.662), 
+    #0d66cbe4);
+}
+.btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.pagenotfound{
+    padding: 40px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background: linear-gradient(to bottom, rgba(255, 228, 196, 0.221),rgba(40, 31, 31, 0.676));
+    height: 96vh;
+}
+.error-msg{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 30px;
+
+}
+.error-msg h1{
+    font-size: 180px;
+    letter-spacing: 10px;
+    font-weight: 500;
+}
+
+.error-msg2 h3{
+    font-size: 60px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.79);
+}
+.error-msg2 p{
+    margin-top: 30px;
+     font-size: 23px;
+}
+.error-msg2 button{
+    padding: 10px 15px;
+    background-color:rgba(244, 208, 149, 0.765);
+    border: none;
+    border-radius: 7px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.error-btn{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(124, 102, 224);
+}
+.error-btn:hover{
+     transition: 0.3s all ease-in-out;
+    background-color: rgba(143, 101, 101, 0.559);
+    color: white;
+}
